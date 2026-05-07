@@ -37,7 +37,7 @@ label_duration <- function(x) {
   sprintf("%d:%02d", minutes, secs)
 }
 
-age_factors_file_path <- "Downloads/age_factors_2010_5k_20_50yo.csv"
+age_factors_file_path <- "data/age_factors_2010_5k_20_50yo.csv"
 age_factors <- read_csv(age_factors_file_path)
 
 # https://en.wikipedia.org/wiki/List_of_world_records_in_masters_athletics
